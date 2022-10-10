@@ -8,7 +8,7 @@ const guestbook = {
   get() {
     return $.ajax({
       type: "GET",
-      url: `${apiUrl}/read-guestbook-entries-sequence.json `,
+      url: `${apiUrl}/read-guestbook-entries-sequence.json`,
       dataType: "json",
     });
   },
